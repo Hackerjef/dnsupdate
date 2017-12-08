@@ -1,0 +1,24 @@
+{
+  "name": "dnsupdate",
+  "version": "1.0.0",
+  "description": "to get public ip and send to services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackerjef/dnsupdate.git"
+  },
+  "author": "hackerjeff",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Hackerjef/dnsupdate/issues"
+  },
+  "homepage": "https://github.com/Hackerjef/dnsupdate#readme",
+  "dependencies": {
+    "memory-cache": "^0.2.0",
+    "request": "^2.83.0",
+    "validate-ip": "^1.0.1"
+  }
+}
